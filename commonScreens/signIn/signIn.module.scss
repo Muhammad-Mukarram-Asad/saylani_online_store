@@ -1,0 +1,124 @@
+.signIn_main_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+  }
+  
+  .heading_text_div {
+    width: 100vw;
+    height: auto;
+  }
+  .heading_text_div > h1 {
+    width: 100vw;
+    height: 10px;
+    margin-top: 25px;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #61b846;
+    text-transform: uppercase;
+  }
+  
+  .heading_text_div > p {
+    width: 100vw;
+    height: 25px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #024f9d;
+    text-transform: uppercase;
+  }
+  
+  .form_main_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 25px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .form_input_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-bottom: 1px solid #d4d3d3;
+    width: 90vw;
+    height: 40px;
+    margin: 10px 0;
+  }
+  
+  .form_input_div > input {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #d4d3d3;
+    width: 50vw;
+    border: none;
+  }
+  
+  .form_input_div > img {
+    width: 26px;
+    height: 27px;
+    top: 296px;
+    left: 341px;
+    opacity: 0.20000000298023224px;
+  }
+  
+  .btn_text_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100vw;
+    height: 168px;
+  }
+  
+  .btn_text_div > button {
+    width: 90vw;
+    height: 69px;
+    border-radius: 15px;
+    background-color: #61b846;
+    color: white;
+    box-shadow: 0px 4px 4px 5px #d4d3d3;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    border: none;
+    margin: auto;
+  }
+  
+  .btn_text_div > p {
+    width: 260px;
+    height: 25px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #024f9d;
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  
