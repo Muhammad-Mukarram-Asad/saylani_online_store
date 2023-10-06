@@ -1,0 +1,73 @@
+.admin_account_main_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+}
+
+.admin_account_main_div  > h1{
+    width: 116px;
+    height: 25px;
+    font-family: Inter;
+font-size: 25px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+color: #024F9D;
+}
+
+
+  
+.profile_icon_img_div {
+    max-width: 50px;
+  }
+  
+  .profile_icon_img_div > img {
+    width: 45px;
+    height: 45px;
+  }
+  
+
+.input_image_main_div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  height: auto;
+}
+
+.input_image_main_div > input{
+    width: inherit;
+    height: 41px;
+//   background-color: #d9d9d9;
+  border: none;
+  border-bottom: 1px solid #D4D3D3;
+}
+
+.input_image_main_div > input::placeholder{
+    width: 172px;
+height: 25px;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+color: #D4D3D3;
+}
+
+#product_image_div {
+    width: 90vw;
+    height: 143px;
+    border-radius: 15px;
+    background-image: url("../../icons/camera_image.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #d9d9d9;
+    margin: 10px 0;
+  }
